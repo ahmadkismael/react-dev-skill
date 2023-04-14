@@ -2,6 +2,8 @@ import React from 'react'
 import NewSkillForm from './NewSkillForm'
 import './SkillList.css'
 const SkillList = (props) => {
+
+    
   return (
     <div>
         <ul >
@@ -12,7 +14,6 @@ const SkillList = (props) => {
             </li>
           ))} 
         </ul>
-        <NewSkillForm />
 
     </div>
   )
